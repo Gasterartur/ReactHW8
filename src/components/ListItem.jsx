@@ -13,7 +13,7 @@ const ListItems = () => {
 
   useEffect(() => {
     console.log("Component ListItems refreshed");
-  }, [items]);
+  }, []);
 
   return (
     <div>
